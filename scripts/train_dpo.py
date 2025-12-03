@@ -384,8 +384,8 @@ def main():
     # )
     # trainer.add_callback(adaptive_callback)
 
-    ema_callback = EMAEvaluationCallback(trainer)
-    trainer.add_callback(ema_callback)
+    # ema_callback = EMAEvaluationCallback(trainer)
+    # trainer.add_callback(ema_callback)
 
     print("Start training ...")       
     trainer.train()
